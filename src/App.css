@@ -1,0 +1,62 @@
+body{
+  background-color: #e9ebeb;
+}
+.widget-container {
+  display: flex;
+  gap: 1.5rem;
+  margin: 2rem;
+  flex-wrap: wrap;
+  max-height: 100%;
+  justify-content: center;
+}
+
+.widget {
+  display: flex;
+  background: white;
+  justify-content: center;
+  align-items: center;
+  flex: 0 1 30%;
+  padding: 2px;
+}
+
+.widget.orange {
+  background: #f4b884;
+}
+
+.widget1{
+  height: 10vw;
+}
+.widget2, .widget4{
+  height: 18vw;
+}
+.widget3, .widget6{
+  height: 11vw;
+}
+.widget5{
+  height: 4vw;
+}
+
+.widget:nth-child(4){
+  margin-top: -7vw;
+}
+
+.widget:nth-child(6){
+  margin-top: -6.5vw;
+}
+
+@media (max-width: 1001px) {
+
+  .widget{
+    flex: 0 1 40%;
+  }
+  .widget4{
+    order: 0.9;
+  }
+  .widget3{
+    order: 1;
+  }
+  .widget6{
+    order: 2;
+  }
+
+}
