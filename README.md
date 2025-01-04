@@ -1,9 +1,10 @@
  CSS challenge:
 To run the code locally run these commands: (I used CREA to build the react app)
 1. `git clone https://github.com/raitests/assignemnt2.git`
-2. `npm install`
-3. `npm run build`
-4. `npm run`
+2. `cd assignemnt2`
+3. `npm install`
+4. `npm run build`
+5. `npm run`
 
 I used css flexbox to complete the challenge.
 
